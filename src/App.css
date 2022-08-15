@@ -1,6 +1,6 @@
 body {
     font-family: 'Josefin Sans';
-    background-color: #FFFAFB;
+    background-color: #373737;
 }
   
 * {
@@ -42,7 +42,7 @@ body {
 }
 
 .react-horizontal-scrolling-menu--wrapper {
-    width: 100%;
+    width: 95vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -91,8 +91,9 @@ body {
 }
 
 .search-btn:hover {
-    color: #FF2625 !important;
-    border: 1px solid #FF2625 !important;
+    color: #f2b957 !important;
+    border: 1px solid #f2b957 !important;
+    border-radius: 40px;
 }
 
 .exercise-video {
@@ -111,9 +112,9 @@ body {
     }
 
 
-    .react-horizontal-scrolling-menu--scroll-container {
+    /* .react-horizontal-scrolling-menu--scroll-container {
         width: 500px;
-    }
+    } */
 
     .left-arrow,
     .right-arrow {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Stack } from '@mui/material';
 
-import Logo from '../assets/images/Logo.png';
+import Logo from '../assets/images/Logo_Or.png';
 
 const Navbar = () => {
     return (
@@ -19,8 +19,8 @@ const Navbar = () => {
                 fontSize="24px"
                 aliginYtems="flex-end"
             >
-                <Link to='/' style={{ textDecoration: 'nonr', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Home</Link>
-                <a href='#exercises' style={{ textDecoration: 'nonr', color: '#3A1212'}}>Exercises</a>
+                <Link to='/' style={{ textDecoration: 'none', color: '#d68a34', borderBottom: '3px solid #d68a34'}}>Home</Link>
+                <a href='#exercises' style={{ textDecoration: 'none', color: '#d68a34'}}>Exercises</a>
             </Stack>
         </Stack>
     );
