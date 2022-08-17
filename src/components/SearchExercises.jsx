@@ -43,20 +43,23 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
                         input: {
                             fontWeight: '700',
                             border: 'none',
-                            borderRadius: '4px',
+                            borderRadius: '40px',
+                        },
+                        fieldset: {
+                            border: 'none',
                         },
                         width: {
                             lg: '1140px',
                             xs: '350px',
                         },
                         backgroundColor: '#878787',
-                        borderRadius: '40px'
+                        borderRadius: '40px',
                     }}
                     height="76px"
                     value={search}
                     onChange={(e) => setSearch(e.target.value.toLowerCase())}
                     placeholder="Search Exercises"
-                    type="text"    
+                    type="text" 
                 />
                 <Button className='search-btn'
                     sx={{

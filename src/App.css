@@ -65,7 +65,7 @@ body {
     width: 400px;
     height: 445px;
     background: #fff;
-    border-top: 4px solid #FF2625;
+    border-top: 4px solid #d68a34;
     border-bottom-left-radius: 20px;
     text-decoration: none;
     display: flex;
@@ -96,6 +96,10 @@ body {
     border-radius: 40px;
 }
 
+.exercises-btn:hover {
+    background-color: #d68a34 !important;
+}
+
 .exercise-video {
     display: flex;
     flex-direction: column;
@@ -103,6 +107,10 @@ body {
     width: 387px;
     height: 381px;
     text-decoration: none;
+}
+
+.pagi button {
+    color:#d68a34;
 }
 
 @media screen and (max-width:1200px) {
