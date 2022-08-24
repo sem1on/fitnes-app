@@ -32,9 +32,9 @@ const Detail = ({ exerciseDetail }) => {
                 <Typography variant="h3" color="#d68a34">
                     {name}
                 </Typography>
-                <Typography variant="h6" color="#d68a34">
+                <Typography variant="h6" color="#878787">
                     Exercises keep you strong.{' '}
-                    <span style={{ textTransform: 'capitalize' }}>{name}</span> bup is one
+                    <span style={{ textTransform: 'capitalize', color: "#d68a34" }}>{name}</span> bup is one
                     of the best <br /> exercises to target your {target}. It will help you improve your{' '}
                     <br /> mood and gain energy.
                 </Typography>

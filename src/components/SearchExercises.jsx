@@ -11,8 +11,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
 
     useEffect(() => {
         const fetchExecissData = async () => {
-            const bodyPartsData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartLis', exerciseOption);
-            // Указать правильный URL!!! специално допущенна ошибка!!!
+            const bodyPartsData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOption);
             setBodyParts(['all', ...bodyPartsData])
         }
         fetchExecissData();
@@ -89,6 +88,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
                     data={bodyParts}
                     bodyPart={bodyPart}
                     setBodyPart={setBodyPart}
+                    isBodyParts
                 />                     
             </Box>
         </Stack>
