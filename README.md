@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Приложение по подбору упражнений на различные группы мышц
+
+Сайт: https://63065ac25e0b62093f0faa98--sensational-sorbet-0efa2a.netlify.app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
